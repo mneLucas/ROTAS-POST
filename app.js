@@ -16,7 +16,6 @@ app.post("/produtos", (req, res)=>{
         const produto = {
             nome: nome,
             preco: preco
-            
         }
 
         const data = fs.readFileSync(pathFile,"utf-8");
